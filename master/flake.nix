@@ -11,7 +11,6 @@
   inputs.src-markdown-master.ref   = "refs/heads/master";
   inputs.src-markdown-master.owner = "soasme";
   inputs.src-markdown-master.repo  = "nim-markdown";
-  inputs.src-markdown-master.dir   = "";
   inputs.src-markdown-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
