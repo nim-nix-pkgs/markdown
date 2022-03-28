@@ -11,6 +11,7 @@
   inputs.src-markdown-v0_5_1.ref   = "refs/tags/v0.5.1";
   inputs.src-markdown-v0_5_1.owner = "soasme";
   inputs.src-markdown-v0_5_1.repo  = "nim-markdown";
+  inputs.src-markdown-v0_5_1.dir   = "";
   inputs.src-markdown-v0_5_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
